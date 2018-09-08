@@ -1,28 +1,114 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background-image:linear-gradient(to right, #014bc4, #03287C);
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+@font-face {
+  font-family: Porter;
+  src: url('./fonts/Porter\ Bold.ttf');
 }
 
-.App-intro {
-  font-size: large;
+.Nav-bar{
+  font-size:3em;
+  padding-left:10%;
+  padding-top:1%;
+  font-family: Porter;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Page-1-title {
+  font-size: 10em;
+  font-family: Porter;
+  padding-left:10%;
+  padding-top:10%;
+  color:#03287C;
+}
+
+.Page-1{
+  background: url('./img/DDABackground1.pdf') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:relative;
+  top:-32px;
+}
+
+div{
+  vertical-align:top;
+}
+
+.Page-1-subtext-1{
+  position:relative;
+  top:-100px;
+  color:black;
+  font-size:3em;
+  padding-left:10%;
+}
+
+.Page-1-subtext-2{
+  color:white;
+  font-size:3em;
+  padding-left:10%;
+  position:relative;
+  top:-150px;
+}
+
+.Page-break-1{
+  background-image: linear-gradient(to right, #65aed8, #03287C);
+  position:relative;
+  top:-80px;
+  width:100%;
+  height:20px;
+}
+
+.Page-break-2{
+  background-image: linear-gradient(to top, #65aed8, #03287C);
+  position:relative;
+  width:100%;
+  height: 200px;
+  align-items:center;
+  align-content:center;
+  display:flex;
+  justify-content:center;
+  color:white;
+}
+
+.Page-break-text{
+  font-size:2em;
+  display:block;
+}
+
+.Page-2{
+  background: url('./img/DDABackground2.pdf') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width:100%;
+  position:relative;
+  top:-79px;
+}
+
+.Page-2-div{
+  align-items:center;
+  align-content:center;
+  display:flex;
+  justify-content:center;
+}
+
+.Contract-image{
+  height:5%;
+  width:5%;
+  margin:0;
+}
+
+.DDA-creates-paragraph{
+  padding-left:5%;
+  font-size:2em;
+  color: #03287C;
+}
+
+.And-we-are-paragraph{
+  font-size:3em;
+  color:black;
 }
